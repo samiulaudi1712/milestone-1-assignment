@@ -1,0 +1,32 @@
+*{
+    font-family: "Azeret Mono", monospace;
+}
+
+/* header section */ 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.name{
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-resume{
+    padding: 17px 24px 17px 24px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
