@@ -2,8 +2,58 @@
     font-family: "Azeret Mono", monospace;
 }
 /* Shared styles */
+/* overall */
 .all-text{
     text-align: center;
+}
+
+/* used in main sections */
+.development-paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(13, 19, 33, 1);
+    opacity: 70%;
+}
+
+.sub-section-1{
+    width: 946px;
+    height: 219px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+}
+
+.sub-section-text{
+    width: 477px;
+    height: 219px;
+    margin-left: 32px;
+}
+
+.sub-section-title{
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.sub-section-paragraph{
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.layer-one-img{
+    width: 274.17px;
+    height: 240px;
+}
+
+.sub-section-btn{
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(13, 19, 33, 1);
+    padding: 12px 20px 12px 20px;
+    border: 0.5px solid black;
+    cursor: pointer;
 }
 
 
@@ -35,6 +85,7 @@ nav{
     font-size: 20px;
     font-weight: 600;
     line-height: 23px;
+    cursor: pointer;
 }
 
 
@@ -78,8 +129,45 @@ main{
     font-size: 20px;
     margin-top: 32px;
     margin-bottom: 45px;
+    cursor: pointer;
 }
 
 .boy-image{
     margin-top: 26px;
 }
+
+/* Second section-why web development  */
+
+.web-development{
+    width: 1140px;
+    height: 1150px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 74px 0px auto;
+    border-radius: 16px;
+}
+
+.web-dev-container{
+    width: 946px;
+    height: 1206px;
+    margin: 80px 97px 80px 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.web-dev-title{
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.sub-section-2{
+    margin-top: 32px;
+    width: 946px;
+    height: 219px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+}
+
+
