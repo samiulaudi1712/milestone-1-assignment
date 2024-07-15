@@ -170,4 +170,24 @@ main{
     align-items: center;
 }
 
+/*my inspiration section*/
+.my-inspiration{
+    height: 775px;
+    width: 1140px;
+    margin-top: 117px;
+}
+.video > iframe{
+    width: 1076px;
+    height: 550px;
+    margin: 32px;
+}
+.video{
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+.inspiration-title{
+    margin-top: 0px;
+}
+
+
 
