@@ -189,5 +189,118 @@ main{
     margin-top: 0px;
 }
 
+/*Current target section design*/
+.current-target-section{
+    width: 1140px;
+    height: 460px;
+    margin-top: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.current-target > h1{
+    margin-top: 0px;
+}
+.skills{
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    gap: 24px;
+}
+.html-section{
+    width: 364px;
+    height: 100%;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html{
+    height: 219px;
+    width: 284px;
+}
+.html-title{
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+.html-description{
+    margin-bottom: 24px;
+}
+.learn-more{
+    font-size: 16px;
+    font-weight: bold;
+}
+.css-section{
+    background-color: rgba(0, 76, 232, 0.05);
+    width: 364px;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.javascript-section{
+    width: 364px;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* need support section design */
+.need-support-section{
+    width: 1140px;
+    height: 313px;
+    margin-top: 49px;
+    border-radius: 16px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url('../assets/handshake.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.support-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.support-paragraph{
+    color: white;
+}
+#input{
+    width: 548px;
+    height: 57px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+}
+#input::placeholder{
+    position: absolute;
+    left: 20px;
+    
+}
+#submit{
+    height: 57px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
 
 
